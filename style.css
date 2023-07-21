@@ -1,6 +1,69 @@
+body {
+    padding-top: 70px;
+    background-color: rgb(255, 255, 255); 
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 h1 {
-    color: rgb(209, 92, 112);
-    background-color: yellow;
-    border: solid 5px green;
-    border-radius: 2px; 
-}   
+    color: rgb(0, 0, 0);
+    background-color: rgb(83, 235, 255);
+    border: solid 10px white;
+    border-radius: 30px;
+    text-align: center; 
+}  
+nav {
+    background-color: rgb(187, 58, 204);
+    border-radius: 20px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+
+} 
+.pai-menu {
+    display: flex;
+    align-items: flex-end;
+    padding-right: 10px;
+}
+
+.pai-menu a{
+    border-radius: 7px;
+    background-color: rgb(141, 141, 243);
+    padding: 0.6px;
+}
+.logo {
+    background-color: rgb(83, 235, 255);
+    border-radius: 20px;
+    font-size: 28px;
+    width: 90px;
+    padding-left: 10px;
+}
+
+h2 {
+    background-color: blueviolet;
+    text-align: center;
+    border: solid 10px white;
+    border-radius: 30px;
+    height: 300px;
+}
+footer {
+    border-radius: 28px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.pai-rodape {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(187, 58, 204);
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.pai-rodape a{
+    border-radius: 7px;
+    background-color: rgb(141, 141, 243);
+    padding: 0.5px;
+}
